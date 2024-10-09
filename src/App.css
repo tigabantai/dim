@@ -1,38 +1,31 @@
+/* src/App.css */
 .App {
-  text-align: center;
+  background-color: #e0f7fa; /* Warna latar belakang */
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: #00796b; /* Warna teks judul */
+  text-align: center; /* Rata tengah untuk judul */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul {
+  list-style: none; /* Menghilangkan bullet point */
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+li {
+  margin: 10px 0;
+  background-color: #ffffff; /* Latar belakang item list */
+  padding: 15px; /* Ruang dalam kotak */
+  border-radius: 5px; /* Sudut kotak melengkung */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan kotak */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Gaya untuk teks dalam kotak */
+.student {
+  border: 1px solid #00796b; /* Garis tepi kotak */
+  border-radius: 5px; /* Sudut kotak melengkung */
+  padding: 15px; /* Ruang dalam kotak */
+  background-color: #f9fbe7; /* Latar belakang kotak data */
 }
